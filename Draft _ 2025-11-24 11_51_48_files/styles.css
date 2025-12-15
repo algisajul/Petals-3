@@ -3,3 +3,43 @@ body{position:relative}a{text-decoration:none}.modal-open{overflow:hidden}.modal
 /*# sourceMappingURL=styles.css.map*/
 /* Hide SendPulse credit */
 .powered-by-block{display:none !important;}
+/* ===== CTA buttons (Petals) ===== */
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 32px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+
+.btn.primary {
+  background-color: #c68997;
+  color: #ffffff;
+}
+
+.btn.primary:hover {
+  background-color: #b97786;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: #c68997;
+  border: 2px solid #c68997;
+}
+
+.btn.secondary:hover {
+  background-color: #c68997;
+  color: #ffffff;
+}
